@@ -16,7 +16,11 @@
     ],
     "lib": [
       "es2018",
-      "dom"
-    ]
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "paths": {
+      "@shared/*": ["src/app/shared/*"]
+      }
   }
 }
